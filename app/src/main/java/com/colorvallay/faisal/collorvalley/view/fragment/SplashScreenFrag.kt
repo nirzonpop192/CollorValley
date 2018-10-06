@@ -27,7 +27,7 @@ class SplashScreenFrag:BaseFragment(){
 
     override fun onResume() {
         super.onResume()
-
+// todo check internet connectivity  then show dialog
         val background=object :Thread(){
             override fun run() {
                 try {
