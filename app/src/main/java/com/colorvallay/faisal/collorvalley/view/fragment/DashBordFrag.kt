@@ -8,9 +8,12 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import com.bumptech.glide.Glide
 import com.colorvallay.faisal.collorvalley.R
 import com.colorvallay.faisal.collorvalley.model.ProductDataItem
 import com.colorvallay.faisal.collorvalley.view.adapter.ProductAdapter
+import kotlinx.android.synthetic.main.frag_dash_bord.view.*
 
 
 class DashBordFrag : BaseFragment() {
@@ -36,11 +39,11 @@ class DashBordFrag : BaseFragment() {
         val rvProducts = rowView.findViewById(R.id.rvProduct) as RecyclerView
         rvProducts.layoutManager = GridLayoutManager(activity, 2)
         rvProducts.adapter = ProductAdapter(mProducts, context)
+        val ivBanner: ImageView = rowView.ivBanner
 
+        Glide.with(context).load("http://colorsvalley.com/back_admin/uploads/banner-1.jpg").into(ivBanner)
         return rowView
     }
-
-
 
 
     override fun onAttach(context: Context) {
