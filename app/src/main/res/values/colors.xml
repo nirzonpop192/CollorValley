@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222222</color>
+    <!--<color name="colorPrimary">#FFF</color>-->
+    <color name="colorPrimaryDark">#131313</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#131313</color>
+    <color name="colorLightGreen">#53AF2E</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBg">#EFF0F5</color>
+    <color name="colorDarkGray">#7D7D7D</color>
+    <color name="colorBorder">#BCBCBC</color>
+    <color name="colorCardViewBg">#FAFAFA</color>
+    <color name="colorPrice">#C68D1E</color>
+    <color name="bg_screen_1">#f64c73</color>
+    <color name="bg_screen_2">#20d2bb</color>
+    <color name="bg_screen_3">#3395ff</color>
+    <color name="bg_screen_4">#c873f4</color>
+
+    <!--dot inactive color-->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+
+    <array name="dot_active_color">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="dot_inactive_color">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="product_title">#4c4c4c</color>
+    <color name="priceText">#C68D1E</color>a
+
+    <!--Toast background -->
+    <color name="toast_bg">#489352</color>
+</resources>
